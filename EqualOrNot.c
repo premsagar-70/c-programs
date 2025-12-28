@@ -5,9 +5,9 @@ int main() {
     printf("Enter two numbers: ");
     scanf("%d %d", &a, &b);
 
-    if (a < b)
-        printf("Smallest = %d", a);
+    if (a == b)
+        printf("Equal");
     else
-        printf("Smallest = %d", b);
+        printf("Not Equal");
     return 0;
 }

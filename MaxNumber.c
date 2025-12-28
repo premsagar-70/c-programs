@@ -5,6 +5,9 @@ int main() {
     printf("Enter two numbers: ");
     scanf("%d %d", &a, &b);
 
-    printf("Largest = %d", (a > b) ? a : b);
+    if (a > b)
+        printf("Largest = %d", a);
+    else
+        printf("Largest = %d", b);
     return 0;
 }
